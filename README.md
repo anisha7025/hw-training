@@ -1,1 +1,1 @@
-#hw-tarining
+#hw - training
