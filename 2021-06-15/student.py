@@ -1,5 +1,5 @@
 class Student:
-    clg="mes"
+    clg="MES"
     def __init__(self,name,age):
         self.name=name
         self.age=age
@@ -14,10 +14,10 @@ class Student:
     def marks(self,mark):
         return f"{mark} marks in subjects"
         # print(mark)
-
-
+    
 obj=student("anu",22)
 # obj.display()
 print(obj.display())
 print(obj.marks(50))
 # print(student.clg)
+
