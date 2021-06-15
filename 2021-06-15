@@ -1,4 +1,4 @@
-class student:
+class Student:
     clg="mes"
     def __init__(self,name,age):
         self.name=name
