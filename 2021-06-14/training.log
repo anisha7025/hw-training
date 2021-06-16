@@ -1,8 +1,12 @@
-Meeting with the team heads , given a clear view regarding the company structure and functioning.
-learnt basic theory cls on:
-  1. HTTP status code
-  2. API
-  3.Linux commands 
-  4.Python package installers
-  5 Virtual environment
+Meeting with the team heads of the organisation, given a clear view regarding the company structure and functioning.
+objective and vision of the organisation
+learnt basic theory class on:
+  1. HTTP status codes (200,404,403,301)
+  2. API(Application Programming Interface) and its brief explanation
+  3. Client-Server architecture and handshaking
+  3. familiarizing with the Linux commands (cd,ls,pwd,sudo)
+  4. package installers (apt , pip) and its usage
+  5. Text editors vim and nano 
+  6. IDE sublime text editor
+  7. what is Virtual environment and its uses
 
