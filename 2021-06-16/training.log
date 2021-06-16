@@ -1,1 +1,24 @@
-files created
+Meeting was conducted.
+class on basic theory of python:
+Python Datatypes (string,list,tuple,dictionary,set) expalnation and its main differences.
+Numerical Datatypes(int,float,bool).
+study on type() , len() and range() functions with examples.
+Arithmatic operations , comparison operators and logical opeartions .
+Detailed study  on main functions used in each python datatypes .
+strip(),
+capitalize(),
+count(),
+split(),
+title(),
+lower(),
+upper(),
+append(),
+extend(),
+insert()
+get(),update().
+Error and Exception handling (try except finally block) ,working of each block 
+Built-in Exceptions and Raising an Exception.
+File Handling in python
+Different modes for opening a file('r','w','a','x').
+String Formatting
+list and dictionary comprehension.
