@@ -1,0 +1,28 @@
+{"name": "Anisha",
+  "emp_id": 1,
+  "login_time": "2021-06-18 17:45",
+  "logout_time": "2021-06-18 17:45",
+  "task": [
+    {
+      "task_title": "Python class",
+      "task_description": "program to display the details of a student",
+      "start_time": "2021-06-18 17:45",
+      "end_time": "2021-06-18 17:45",
+      "task_sucess": "True"
+    },
+    {
+      "task_title": "Python basics and operations",
+      "task_description": "create a python class that will be used by each employee to log their task and create a json file for the same",
+      "start_time": "2021-06-18 17:45",
+      "end_time": "2021-06-18 17:45",
+      "task_sucess": "True"
+    },
+    {
+      "task_title": "string sorting", 
+      "task_description": "program to sort the string into lists of numeric ,alphanumeric and digits ",
+      "start_time": "2021-06-18 17:45",
+      "end_time": "2021-06-18 17:45",
+      "task_sucess": "True"
+    }
+  ]
+}
