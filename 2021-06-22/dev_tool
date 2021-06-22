@@ -1,0 +1,62 @@
+1.  data loading url
+https://www.flipkart.com/audio-video/~cs-53mrbtcuf5/pr?sid=0pm&collection-tab-name=Audio+And+Video&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&fm=neo%2Fmerchandising&iid=M_d565fbf6-0263-4fce-b0b8-48e083237d0e_1_372UD5BXDFYS_MC.9JGNW7M0TUHD&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Electronics~Audio~All_9JGNW7M0TUHD&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=9JGNW7M0TUHD
+
+2.  Request Headers
+GET /audio-video/~cs-53mrbtcuf5/pr?sid=0pm&collection-tab-name=Audio+And+Video&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&fm=neo%2Fmerchandising&iid=M_d565fbf6-0263-4fce-b0b8-48e083237d0e_1_372UD5BXDFYS_MC.9JGNW7M0TUHD&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Electronics~Audio~All_9JGNW7M0TUHD&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=9JGNW7M0TUHD HTTP/1.1
+Host: www.flipkart.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Upgrade-Insecure-Requests: 1
+Connection: keep-alive
+Cookie: T=TI162435608084900194706619127281878719972094468998641555892018244299; SN=VIAD01D9A2786C48D782A21B015D52F3CE.TOK601243831E8541D18EDB3F70FF5DF578.1624361005.LO; AMCV_17EB401053DAF4840A490D4C%40AdobeOrg=-227196251%7CMCIDTS%7C18801%7CMCMID%7C17445520392570851721818828037387523309%7CMCAID%7CNONE%7CMCOPTOUT-1624363291s%7CNONE%7CMCAAMLH-1624960891%7C12%7CMCAAMB-1624960891%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y; AMCVS_17EB401053DAF4840A490D4C%40AdobeOrg=1; _pxvid=d0ec0f07-d340-11eb-b095-0242ac120018; _px3=73784949a1f7d24f3ebde1e16b9b3fa8d3db4213b86f8d6adb4bbee2cb308bd3:9en18IjJFAojlgakhwap9mgeGW4gPI+KzD9ByJAgMWuqthLN5MS3x3vzeUxJ5xoRpwMiOSySwqwd7eIyhDZ3NA==:1000:cP1Q2JMjPDoFfaDqeZLdPZ8I0on88hZ0P785WLiZAE2fBocnspsNzePdAOtgIrXkZfouJFjb4xTMtgjpMe3YbVnPNxrDFhMzSWEHUJlGr3LCgh4x4c1O/GzfyDzSQTJpLgrVaxAVWNSne9iRiCKaUdxEnsPXt+Z0YW75k6U5h9743wm154GI1k+MTk/hFy9+oGcPZxfHG9V2Hpdq+dmaSA==; gpv_pn=Store%20%3AAudio%20%26%20Video; gpv_pn_t=Store%20Browse; s_cc=true; S=d1t14Ez92Pz8/P0k/Pz8/PwUUTeqsoeTSknJDp0+A9faZ/6Rs430DsG55p7WxRjTjagsE3XZ/XMjiY3QudeVW+4xnow==; s_sq=%5B%5BB%5D%5D
+Cache-Control: max-age=0
+
+3.  Response Headers
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 22 Jun 2021 11:23:44 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'self' 'unsafe-eval' https://*.flixcart.com https://*.flixcart.net https://flipkart.d1.sc.omtrdc.net https://dpm.demdex.net https://sslwidget.criteo.com https://widget.as.criteo.com https://tnc.phonepe.com https://www.gstatic.com https://unpkg.com 'nonce-8531989251471959492'; style-src 'self' 'unsafe-inline' https://*.flixcart.com https://tnc.phonepe.com https://*.flixcart.net; img-src 'self' data: blob: https://*.flixcart.com https://*.flixcart.net https://images.ixigo.com https://flipkart.d1.sc.omtrdc.net https://www.facebook.com https://*.fkapi.net https://googleads.g.doubleclick.net https://www.google.com https://www.google.co.in https://www.googleadservices.com https://sp.analytics.yahoo.com https://bat.bing.com https://bat.r.msn.com https://pay.payzippy.com https://1.pay.payzippy.com https://tnc.phonepe.com; font-src 'self' data: https://*.flixcart.com https://tnc.phonepe.com https://*.flixcart.net; frame-src 'self' https://*.flipkart.com http://*.flipkart.com https://*.youtube.com https://youtube.com https://*.vimeo.com https://dis.as.criteo.com https://gum.criteo.com https://pay.payzippy.com https://1.pay.payzippy.com https://tnc.phonepe.com https://cdemux.appspot.com 'nonce-8531989251471959492'; worker-src 'self' https://*.flipkart.com blob:; child-src 'self' https://*.flipkart.com 'nonce-8531989251471959492'; connect-src 'self' *; object-src 'none'; base-uri 'self'; report-uri https://sentry.flipkart.com/api/2/security/?sentry_key=b2fe488e344a47eda53b8d306edec9b7&sentry_release=undefined
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: T=TI162435608084900194706619127281878719972094468998641555892018244299; Max-Age=31536000; Domain=flipkart.com; Path=/; Expires=Wed, 22 Jun 2022 11:23:44 GMT; Secure; SameSite=None
+Set-Cookie: T=TI162435608084900194706619127281878719972094468998641555892018244299; Max-Age=31536000; Domain=flipkart.net; Path=/; Expires=Wed, 22 Jun 2022 11:23:44 GMT; Secure; SameSite=None
+Set-Cookie: SN=VIAD01D9A2786C48D782A21B015D52F3CE.TOK601243831E8541D18EDB3F70FF5DF578.1624361024.LO; Max-Age=15778476; Domain=flipkart.com; Path=/; Expires=Wed, 22 Dec 2021 02:18:20 GMT; HttpOnly
+Content-Encoding: gzip
+x-e-id: 10.32.127.153
+
+4. Cookies
+_px3 :"3cddc9e8ece8ead6ac8151584f6796d52f50d56dfc81b10812ca3ecbd980d1e3:5LTlnSLOyT77o+Yd7gujftjFtJ1BsXFFMLm4asUuhCHTTzGyg4HuACQ0DRZ5a1sbO5XZ8RuqGxV0S0JosWiEag==:1000:vGSSvktqGu87HmmMmmCmdRt9ETPAvoDZwF16zX7vp9pXqCYowVqWbiTjfWlvNcxm+e5AawKKrwORk0jyQ51ikXTBhCINZTC+qLjc9MXqz2SdtBrSTZc1v0dOWIE4m8qDGNRtQe6eRCUSX7oj1uSXsby62Mv4MnZIFcGKMCPsWcwHyPnmI1iLsZCsJaRYSBqf7YIpyrgy1rxUP7QZj0nYdw=",
+
+_pxvid	:"d0ec0f07-d340-11eb-b095-0242ac120018",
+
+AMCV_17EB401053DAF4840A490D4C@AdobeOrg:"-227196251|MCIDTS|18801|MCMID|17445520392570851721818828037387523309|MCAID|NONE|MCOPTOUT-1624363291s|NONE|MCAAMLH-1624960891|12|MCAAMB-1624960891|6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y"
+
+AMCVS_17EB401053DAF4840A490D4C@AdobeOrg:"1"
+
+gpv_pn	"Store :Audio & Video"
+
+gpv_pn_t:"Store Browse"
+
+S:"d1t14Ez92Pz8/P0k/Pz8/PwUUTeqsoeTSknJDp0+A9faZ/6Rs430DsG55p7WxRjTjagsE3XZ/XMjiY3QudeVW+4xnow=="
+
+s_cc:"true"
+
+s_sq:"[[B]]"
+
+SN:"VIAD01D9A2786C48D782A21B015D52F3CE.TOK601243831E8541D18EDB3F70FF5DF578.1624361005.LO"
+
+T:"TI162435608084900194706619127281878719972094468998641555892018244299"
+
+5.  Method Used
+  POST
+  
+6. Response status
+200
+
+7.Inspect and find the category name
+Audio & Vedio
