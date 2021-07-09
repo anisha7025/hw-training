@@ -1,0 +1,11 @@
+Meeting was conducted(FN) ,
+class on scrapy
+fetching the url through scrapy shell and view thw response.
+detail study on each file in the scrapy project 
+(middlewares.py,pipeline.py,settings.py,init.py)
+structure of a project.
+
+Meeting was conducted (AN),
+Problems faced while extracting a data.
+How to load a json content.
+
