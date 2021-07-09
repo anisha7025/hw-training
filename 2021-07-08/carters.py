@@ -1,3 +1,4 @@
+
 headers = {
 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
 'accept-encoding': 'gzip, deflate, br',
@@ -15,27 +16,26 @@ tree=html.fromstring(page.content)
 
 product_name=tree.xpath('//h2[@class="product-title"]/text()')[0]
 price = tree.xpath('//span[@class="value"]/text()')[0].strip()
-match=re.match('(\$)(\d\.\d+)',price)
+match=re.match('(\$)(\d+\.\d+)',price)
 new_price=match.group(2)
-brand=tree.xpath('//div[@class="logo"]/a/@title')[0]
-# currency
-# pdp_url=tree.xpath('')
 color=tree.xpath('//div[@class="color-swatch-title"]/span/text()')
 sizes=tree.xpath('//div[@data-attr="size"]/a/text()')
 new_size=[size.strip() for size in sizes]
 images=tree.xpath('//img[@class="js-product-main-image-0"]/@src')
-desc=tree.xpath('//div[@class="product-set-banner-details mb-3"]/text()')
-features=tree.xpath('//ul[@class="product-details-list"]//li/text()')[:3]
+description=tree.xpath('//div[@class="product-set-banner-details mb-3"]/text()')[0].strip()
+features=tree.xpath('//ul[@class="product-details-list"]/ul/li/text()')[:3]
 
 
 
 item={
+    'pdp_url':url,
     'product_name':product_name,
-    'brand':brand,
+    'brand':"Carter's",
     'price':new_price,
+    'currency':'USD',
     'image_url':images,
-    'desc':desc,
-    'variants':{'color':color,
+    'description':description,
+    'product_variants':{'color':color,
                 'size':new_size
                 },
     'features':features
