@@ -1,0 +1,8 @@
+2021-07-30 17:53:16,265 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.walmart.com:443
+2021-07-30 17:53:17,522 - urllib3.connectionpool - DEBUG - https://www.walmart.com:443 "GET /ip/Apple-Watch-Series-3-GPS-38mm-Sport-Band-Aluminum-Case/706203065 HTTP/1.1" 200 106589
+2021-07-30 17:53:17,752 - root - INFO - requested the url...
+2021-07-30 17:53:17,771 - root - INFO - got the response :)
+2021-07-30 17:53:17,772 - root - INFO - started extraction
+2021-07-30 17:53:17,779 - root - INFO - extracted
+2021-07-30 17:53:17,779 - root - INFO - printing...
+2021-07-30 17:53:17,780 - root - INFO - exits the prgrm
