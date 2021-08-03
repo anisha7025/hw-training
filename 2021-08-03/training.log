@@ -1,0 +1,13 @@
+morning meeting was conducted,
+-class on what are the different anti-scrapping measures.
+-detailed class on each (to prevent scraping).
+-Login for Access,Honey Pot,IP blocking 
+-How to evade Anti-scrapping.
+-scrapy project structure and common practices to carry out  in a scrapy  project.
+-python tricks to improve the performance of a python program.
+
+Evening meeting was conducted
+-pointed out some of the mistakes in the task(finishline) and correcting them.
+-exported the data to csv and json files.
+-new website was given to extarct (shopjustice)
+-started with crawling.
