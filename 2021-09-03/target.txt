@@ -1,0 +1,23 @@
+TASK : Code Upadation
+PROJECT  : xsb
+website : target.com
+
+
+1.target_url_crawler.py
+
+ -no updations was noted.
+
+
+2.target_parser.py
+
+ - Vendor no , Model no  were  not available for some of the urls.
+ - Manufacture name and the brand name were given the same. 
+ - item name contains special characters  in between the names 
+ 
+Just took some time to analyse the code.
+Else no complexities was faced during the updation.
+ 
+  
+ 
+ 
+ 
